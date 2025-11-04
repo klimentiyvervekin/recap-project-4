@@ -1,5 +1,6 @@
 import "./Color.css";
 
+// color card function to display each color card with text
 export default function Color({ color }) {
   return (
     <div
