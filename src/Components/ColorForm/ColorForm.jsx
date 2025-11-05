@@ -29,3 +29,5 @@ export default function ColorForm({                        // function ColorForm
     </form>
   );
 }
+
+// data is an object with new data from the form that user inputted
