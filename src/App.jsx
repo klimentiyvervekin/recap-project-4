@@ -12,12 +12,12 @@ function App() {
   // function to add new colors (text & background) to the list
   function handleAddColor({ role, hex, contrastText }) {
     const newColor = {
-      id: crypto.randomUUID(), // crypto.randomUUID() is intern browser function to create unique id
-      role,
-      hex,
-      contrastText,
+      id: crypto.randomUUID(),  // crypto.randomUUID() is intern browser function to create unique id
+      role,                     // role: colorData.role,
+      hex,                      // hex: colorData.hex,
+      contrastText,             // contrastText: colorData.contrastText,
     };
-//-----------------------------------------------------------//
+
     // add new color to new array to the beginning of initialColors array
     setColors((prevColors) => [newColor, ...prevColors]); // ...prevColors to keep previous colors, setColors to update colors state
   }
