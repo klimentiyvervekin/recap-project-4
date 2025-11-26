@@ -44,10 +44,3 @@ This project was created during the **Neue Fische Web Development Bootcamp** as 
 - **Vercel** – deployment  
 
 ---
-
-## 📸 Preview
-
-Add your screenshot:
-
-```md
-![Theme Creator Screenshot](public/screenshot.png)
